@@ -1,0 +1,155 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    
+    // 根据地区添加不同的插件
+    if (project.ext.region == 'us') {
+        id 'com.google.gms.google-services'
+        id 'com.google.firebase.crashlytics'
+    }
+}
+
+android {
+    namespace 'com.smartrecipe.app'
+    compileSdk project.ext.compileSdk
+
+    defaultConfig {
+        applicationId "com.smartrecipe.app"
+        minSdk project.ext.minSdk
+        targetSdk project.ext.targetSdk
+        versionCode 1
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+        
+        // 根据地区设置不同的配置
+        buildConfigField "String", "REGION", "\"${project.ext.region}\""
+        resValue "string", "app_name", project.ext.region == 'china' ? "智能食谱" : "Smart Recipe"
+    }
+    
+    flavorDimensions "region"
+    productFlavors {
+        china {
+            dimension "region"
+            applicationIdSuffix ".china"
+            buildConfigField "String", "API_BASE_URL", "\"https://api-cn.smartrecipe.com\""
+            buildConfigField "String", "WEB_BASE_URL", "\"https://www.smartrecipe.cn\""
+        }
+        
+        us {
+            dimension "region"
+            applicationIdSuffix ".us"
+            buildConfigField "String", "API_BASE_URL", "\"https://api-us.smartrecipe.com\""
+            buildConfigField "String", "WEB_BASE_URL", "\"https://www.smartrecipe.com\""
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            applicationIdSuffix ".debug"
+            buildConfigField "String", "API_BASE_URL", "\"http://10.0.2.2:8000\""
+        }
+        
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    
+    buildFeatures {
+        compose true
+        buildConfig true
+    }
+    
+    composeOptions {
+        kotlinCompilerExtensionVersion project.ext.compose_version
+    }
+    
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+
+dependencies {
+    // Core Android
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+    implementation 'androidx.activity:activity-compose:1.8.1'
+    
+    // Compose
+    implementation "androidx.compose.ui:ui:$compose_version"
+    implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
+    implementation 'androidx.compose.material3:material3:1.1.2'
+    
+    // Navigation
+    implementation 'androidx.navigation:navigation-compose:2.7.5'
+    
+    // ViewModel
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0'
+    
+    // 网络请求
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
+    
+    // 图片加载
+    implementation 'io.coil-kt:coil-compose:2.5.0'
+    
+    // 依赖注入
+    implementation 'io.insert-koin:koin-android:3.5.0'
+    implementation 'io.insert-koin:koin-androidx-compose:3.5.0'
+    
+    // 数据存储
+    implementation 'androidx.datastore:datastore-preferences:1.0.0'
+    implementation 'androidx.room:room-runtime:2.6.0'
+    implementation 'androidx.room:room-ktx:2.6.0'
+    kapt 'androidx.room:room-compiler:2.6.0'
+    
+    // 根据地区添加不同的依赖
+    if (project.ext.region == 'china') {
+        // 微信支付
+        implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.8.0'
+        // 支付宝支付
+        implementation 'com.alipay.sdk:alipaysdk-android:15.8.11'
+        // 高德地图
+        implementation 'com.amap.api:location:6.3.0'
+        implementation 'com.amap.api:search:9.7.0'
+        // 友盟统计
+        implementation 'com.umeng.umsdk:common:9.6.1'
+        implementation 'com.umeng.umsdk:asms:1.8.0'
+    } else {
+        // Stripe支付
+        implementation 'com.stripe:stripe-android:20.33.0'
+        // Google Maps
+        implementation 'com.google.android.gms:play-services-maps:18.2.0'
+        implementation 'com.google.android.gms:play-services-location:21.0.1'
+        // Firebase
+        implementation platform('com.google.firebase:firebase-bom:32.6.0')
+        implementation 'com.google.firebase:firebase-analytics-ktx'
+        implementation 'com.google.firebase:firebase-crashlytics-ktx'
+        implementation 'com.google.firebase:firebase-messaging-ktx'
+    }
+    
+    // Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
+    debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+} 

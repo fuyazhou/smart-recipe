@@ -1,0 +1,92 @@
+version: '3.8'
+
+services:
+  # 数据库服务
+  postgres:
+    image: postgres:15
+    container_name: smart-recipe-postgres
+    environment:
+      POSTGRES_DB: smart_recipe
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d
+    networks:
+      - smart-recipe-network
+
+  # Redis缓存
+  redis:
+    image: redis:7-alpine
+    container_name: smart-recipe-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - smart-recipe-network
+
+  # 后端API服务
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: smart-recipe-backend
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/smart_recipe
+      - REDIS_URL=redis://redis:6379/0
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - /app/__pycache__
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - smart-recipe-network
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Web前端服务
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile.dev
+    container_name: smart-recipe-web
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./web:/app
+      - /app/node_modules
+    environment:
+      - REACT_APP_API_BASE_URL=http://localhost:8000
+    depends_on:
+      - backend
+    networks:
+      - smart-recipe-network
+
+  # Nginx反向代理
+  nginx:
+    image: nginx:alpine
+    container_name: smart-recipe-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./configs/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./configs/nginx/ssl:/etc/nginx/ssl
+    depends_on:
+      - backend
+      - web
+    networks:
+      - smart-recipe-network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  smart-recipe-network:
+    driver: bridge 

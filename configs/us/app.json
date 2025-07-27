@@ -1,0 +1,71 @@
+{
+  "app": {
+    "name": "Smart Recipe",
+    "bundle_id": "com.smartrecipe.app.us",
+    "version": "1.0.0",
+    "region": "us",
+    "language": "en-US",
+    "currency": "USD"
+  },
+  "api": {
+    "base_url": "https://api-us.smartrecipe.com",
+    "timeout": 30000,
+    "retry_attempts": 3
+  },
+  "features": {
+    "social_login": {
+      "wechat": false,
+      "qq": false,
+      "weibo": false,
+      "google": true,
+      "facebook": true,
+      "apple": true
+    },
+    "payment": {
+      "wechat_pay": false,
+      "alipay": false,
+      "stripe": true,
+      "apple_pay": true,
+      "google_pay": true
+    },
+    "maps": {
+      "provider": "google",
+      "api_key_placeholder": "GOOGLE_MAPS_API_KEY"
+    },
+    "analytics": {
+      "provider": "firebase",
+      "project_id_placeholder": "FIREBASE_PROJECT_ID"
+    },
+    "push_notifications": {
+      "provider": "firebase",
+      "project_id_placeholder": "FIREBASE_PROJECT_ID"
+    }
+  },
+  "compliance": {
+    "data_residency": "us",
+    "privacy_policy_url": "https://www.smartrecipe.com/privacy",
+    "terms_of_service_url": "https://www.smartrecipe.com/terms",
+    "coppa_compliant": true,
+    "content_rating": "4+"
+  },
+  "cdn": {
+    "images": "https://cdn-us.smartrecipe.com/images/",
+    "videos": "https://cdn-us.smartrecipe.com/videos/",
+    "static": "https://cdn-us.smartrecipe.com/static/"
+  },
+  "third_party_services": {
+    "sms": {
+      "provider": "twilio",
+      "region": "us-east-1"
+    },
+    "email": {
+      "provider": "sendgrid",
+      "region": "us-east-1"
+    },
+    "storage": {
+      "provider": "aws_s3",
+      "bucket": "smartrecipe-us",
+      "region": "us-east-1"
+    }
+  }
+} 

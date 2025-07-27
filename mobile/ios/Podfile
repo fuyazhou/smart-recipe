@@ -1,0 +1,73 @@
+# iOS 最低版本要求
+platform :ios, '14.0'
+
+# 如果使用Swift Package Manager
+# use_frameworks! :linkage => :static
+
+target 'SmartRecipe' do
+  use_frameworks!
+
+  # Pods for SmartRecipe
+  
+  # 网络请求
+  pod 'Alamofire', '~> 5.8'
+  
+  # JSON解析
+  pod 'SwiftyJSON', '~> 5.0'
+  
+  # 图片加载和缓存
+  pod 'Kingfisher', '~> 7.0'
+  
+  # 数据持久化
+  pod 'FMDB', '~> 2.7'
+  pod 'KeychainAccess', '~> 4.2'
+  
+  # UI组件
+  pod 'SnapKit', '~> 5.6'
+  
+  # 国际化
+  pod 'Localize-Swift', '~> 3.2'
+  
+  # 根据地区选择不同的第三方服务
+  # 中国地区特有的依赖
+  if ENV['REGION'] == 'china'
+    # 微信支付
+    pod 'WechatOpenSDK', '~> 1.9'
+    # 支付宝支付
+    pod 'AlipaySDK-iOS', '~> 15.8'
+    # 高德地图
+    pod 'AMapLocation', '~> 2.7'
+    pod 'AMapSearch', '~> 9.7'
+    # 友盟统计
+    pod 'UMCCommon', '~> 7.4'
+    pod 'UMCAnalytics', '~> 4.0'
+  else
+    # 美国地区特有的依赖
+    # Stripe支付
+    pod 'Stripe', '~> 23.0'
+    # Google Maps
+    pod 'GoogleMaps', '~> 7.4'
+    pod 'GooglePlaces', '~> 7.4'
+    # Firebase
+    pod 'Firebase/Analytics', '~> 10.0'
+    pod 'Firebase/Crashlytics', '~> 10.0'
+    pod 'Firebase/Messaging', '~> 10.0'
+  end
+
+  target 'SmartRecipeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SmartRecipeUITests' do
+    # Pods for testing
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+    end
+  end
+end 

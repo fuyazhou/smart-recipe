@@ -1,0 +1,68 @@
+{
+  "app": {
+    "name": "智能食谱",
+    "bundle_id": "com.smartrecipe.app.china",
+    "version": "1.0.0",
+    "region": "china",
+    "language": "zh-CN",
+    "currency": "CNY"
+  },
+  "api": {
+    "base_url": "https://api-cn.smartrecipe.com",
+    "timeout": 30000,
+    "retry_attempts": 3
+  },
+  "features": {
+    "social_login": {
+      "wechat": true,
+      "qq": true,
+      "weibo": true,
+      "google": false,
+      "facebook": false
+    },
+    "payment": {
+      "wechat_pay": true,
+      "alipay": true,
+      "stripe": false
+    },
+    "maps": {
+      "provider": "amap",
+      "api_key_placeholder": "AMAP_API_KEY"
+    },
+    "analytics": {
+      "provider": "umeng",
+      "app_key_placeholder": "UMENG_APP_KEY"
+    },
+    "push_notifications": {
+      "provider": "getui",
+      "app_key_placeholder": "GETUI_APP_KEY"
+    }
+  },
+  "compliance": {
+    "data_residency": "china",
+    "privacy_policy_url": "https://www.smartrecipe.cn/privacy",
+    "terms_of_service_url": "https://www.smartrecipe.cn/terms",
+    "icp_license": "京ICP备12345678号",
+    "content_rating": "4+"
+  },
+  "cdn": {
+    "images": "https://cdn-cn.smartrecipe.com/images/",
+    "videos": "https://cdn-cn.smartrecipe.com/videos/",
+    "static": "https://cdn-cn.smartrecipe.com/static/"
+  },
+  "third_party_services": {
+    "sms": {
+      "provider": "aliyun",
+      "region": "cn-hangzhou"
+    },
+    "email": {
+      "provider": "aliyun",
+      "region": "cn-hangzhou"
+    },
+    "storage": {
+      "provider": "aliyun_oss",
+      "bucket": "smartrecipe-china",
+      "region": "cn-hangzhou"
+    }
+  }
+} 
