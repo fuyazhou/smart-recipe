@@ -29,6 +29,10 @@ app.add_middleware(
 # 注册路由
 app.include_router(users.router, prefix="/api/v1/users", tags=["用户"])
 
+# 导入认证路由
+from app.routers import auth
+app.include_router(auth.router, prefix="/api/v1/auth", tags=["认证"])
+
 # 初始化数据库表
 @app.on_event("startup")
 async def startup_event():

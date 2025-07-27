@@ -4,10 +4,8 @@ services:
     image: mysql:8.0
     container_name: smart-recipe-mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_DATABASE: smart_recipe
-      MYSQL_USER: smartrecipe
-      MYSQL_PASSWORD: smartrecipe
     ports:
       - "3306:3306"
     volumes:
@@ -35,7 +33,7 @@ services:
       dockerfile: Dockerfile
     container_name: smart-recipe-backend
     environment:
-      - DATABASE_URL=mysql://smartrecipe:smartrecipe@mysql:3306/smart_recipe
+      - DATABASE_URL=mysql://root:@mysql:3306/smart_recipe
       - REDIS_URL=redis://redis:6379/0
     ports:
       - "8000:8000"
