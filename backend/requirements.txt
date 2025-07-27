@@ -5,7 +5,8 @@ uvicorn[standard]==0.24.0
 # 数据库
 sqlalchemy==2.0.23
 alembic==1.12.1
-asyncpg==0.29.0  # PostgreSQL async driver
+aiomysql==0.2.0  # MySQL async driver
+PyMySQL==1.1.0  # MySQL sync driver (fallback)
 redis==5.0.1
 
 # 认证和安全

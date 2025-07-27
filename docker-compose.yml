@@ -1,19 +1,19 @@
-version: '3.8'
-
 services:
-  # 数据库服务
-  postgres:
-    image: postgres:15
-    container_name: smart-recipe-postgres
+  # MySQL数据库服务
+  mysql:
+    image: mysql:8.0
+    container_name: smart-recipe-mysql
     environment:
-      POSTGRES_DB: smart_recipe
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: smart_recipe
+      MYSQL_USER: smartrecipe
+      MYSQL_PASSWORD: smartrecipe
     ports:
-      - "5432:5432"
+      - "3306:3306"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-      - ./database/init:/docker-entrypoint-initdb.d
+      - mysql_data:/var/lib/mysql
+      - ./database/schemas:/docker-entrypoint-initdb.d
+    command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     networks:
       - smart-recipe-network
 
@@ -35,7 +35,7 @@ services:
       dockerfile: Dockerfile
     container_name: smart-recipe-backend
     environment:
-      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/smart_recipe
+      - DATABASE_URL=mysql://smartrecipe:smartrecipe@mysql:3306/smart_recipe
       - REDIS_URL=redis://redis:6379/0
     ports:
       - "8000:8000"
@@ -43,7 +43,7 @@ services:
       - ./backend:/app
       - /app/__pycache__
     depends_on:
-      - postgres
+      - mysql
       - redis
     networks:
       - smart-recipe-network
@@ -84,7 +84,7 @@ services:
       - smart-recipe-network
 
 volumes:
-  postgres_data:
+  mysql_data:
   redis_data:
 
 networks:

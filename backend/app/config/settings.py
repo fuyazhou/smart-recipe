@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     REGION: str = "china"  # china 或 us
     
     # 数据库配置
-    DATABASE_URL: str = "postgresql://postgres:postgres@localhost:5432/smart_recipe"
+    DATABASE_URL: str = "mysql://smartrecipe:smartrecipe@localhost:3306/smart_recipe"
     REDIS_URL: str = "redis://localhost:6379/0"
     
     # JWT配置

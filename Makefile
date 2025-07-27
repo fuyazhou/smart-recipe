@@ -18,7 +18,7 @@ help:
 # 开发环境
 dev-up:
 	@echo "启动开发环境..."
-	docker-compose up -d
+	docker compose up -d
 	@echo "开发环境已启动："
 	@echo "  Web前端: http://localhost:3000"
 	@echo "  后端API: http://localhost:8000"
@@ -26,7 +26,7 @@ dev-up:
 
 dev-down:
 	@echo "停止开发环境..."
-	docker-compose down
+	docker compose down
 
 # 安装依赖
 install:
@@ -91,7 +91,7 @@ deploy-us:
 # 清理
 clean:
 	@echo "清理构建文件..."
-	docker-compose down
+	docker compose down
 	docker system prune -f
 	cd backend && find . -type d -name "__pycache__" -exec rm -rf {} +
 	cd web && rm -rf build/ dist/ node_modules/.cache/
@@ -106,6 +106,11 @@ db-migrate:
 db-seed:
 	@echo "填充测试数据..."
 	cd backend && python scripts/seed_data.py
+
+db-reset:
+	@echo "重置MySQL数据库..."
+	docker compose exec mysql mysql -u root -proot -e "DROP DATABASE IF EXISTS smart_recipe; CREATE DATABASE smart_recipe CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+	docker compose exec mysql mysql -u root -proot smart_recipe < /docker-entrypoint-initdb.d/init.sql
 
 # 代码质量检查
 lint:
