@@ -9,12 +9,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 0.1
           },
           {
             "min": 0.3,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -48,12 +48,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 300.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -91,12 +91,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 14.0
           },
           {
             "min": 63.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -134,12 +134,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 92.0
           },
           {
             "min": 138.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -177,12 +177,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 25.0
           },
           {
             "min": 75.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -221,7 +221,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -229,7 +229,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 810.0
           },
           {
@@ -268,12 +268,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 250.0
           },
           {
             "min": 400.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -311,12 +311,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1840.0
           },
           {
             "min": 2760.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -354,12 +354,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 250.0
           },
           {
             "min": 625.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -397,12 +397,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 300.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -440,12 +440,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -483,12 +483,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 218.4
           },
           {
             "min": 327.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -527,7 +527,7 @@
         "ranges": [
           {
             "min": 42.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -535,7 +535,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 18.0
           },
           {
@@ -574,12 +574,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 2.6
           },
           {
             "min": 4.8,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -613,12 +613,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.2
           },
           {
             "min": 2.25,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -653,7 +653,7 @@
         "ranges": [
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -661,7 +661,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.4
           },
           {
@@ -701,7 +701,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -709,7 +709,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 125.0
           },
           {
@@ -749,7 +749,7 @@
         "ranges": [
           {
             "min": 50.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -757,7 +757,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 5.0
           },
           {
@@ -797,7 +797,7 @@
         "ranges": [
           {
             "min": 700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -805,7 +805,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 8.5
           },
           {
@@ -845,7 +845,7 @@
         "ranges": [
           {
             "min": 40.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -853,7 +853,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 9.9
           },
           {
@@ -893,7 +893,7 @@
         "ranges": [
           {
             "min": 1000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -901,7 +901,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 450.0
           },
           {
@@ -940,12 +940,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1680.0
           },
           {
             "min": 2760.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -983,12 +983,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 37.5
           },
           {
             "min": 150.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1026,12 +1026,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 51.2
           },
           {
             "min": 76.8,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1069,12 +1069,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 0.1
           },
           {
             "min": 0.3,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1108,12 +1108,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 104.0
           },
           {
             "min": 156.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1152,7 +1152,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1160,7 +1160,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 650.0
           },
           {
@@ -1199,12 +1199,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1800.0
           },
           {
             "min": 2700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1242,12 +1242,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 247.5
           },
           {
             "min": 371.25,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1286,7 +1286,7 @@
         "ranges": [
           {
             "min": 42.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1294,7 +1294,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 9.0
           },
           {
@@ -1333,12 +1333,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 2.0
           },
           {
             "min": 3.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1372,12 +1372,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.2
           },
           {
             "min": 2.1,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1412,7 +1412,7 @@
         "ranges": [
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1420,7 +1420,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.2
           },
           {
@@ -1460,7 +1460,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1468,7 +1468,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 85.0
           },
           {
@@ -1508,7 +1508,7 @@
         "ranges": [
           {
             "min": 50.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1516,7 +1516,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 5.0
           },
           {
@@ -1556,7 +1556,7 @@
         "ranges": [
           {
             "min": 700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1564,7 +1564,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.0
           },
           {
@@ -1604,7 +1604,7 @@
         "ranges": [
           {
             "min": 40.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1612,7 +1612,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 10.4
           },
           {
@@ -1652,7 +1652,7 @@
         "ranges": [
           {
             "min": 1000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1660,7 +1660,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 320.0
           },
           {
@@ -1699,12 +1699,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1088.0
           },
           {
             "min": 2448.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1742,12 +1742,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 50.0
           },
           {
             "min": 75.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1785,12 +1785,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 0.1
           },
           {
             "min": 0.3,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1824,12 +1824,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 0.1
           },
           {
             "min": 0.3,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1863,12 +1863,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 72.0
           },
           {
             "min": 108.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1906,12 +1906,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 72.0
           },
           {
             "min": 108.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1950,7 +1950,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -1958,7 +1958,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 650.0
           },
           {
@@ -1998,7 +1998,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2006,7 +2006,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 650.0
           },
           {
@@ -2045,12 +2045,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1440.0
           },
           {
             "min": 2160.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2088,12 +2088,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1440.0
           },
           {
             "min": 2160.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2131,12 +2131,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 198.4
           },
           {
             "min": 297.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2174,12 +2174,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 198.4
           },
           {
             "min": 297.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2218,7 +2218,7 @@
         "ranges": [
           {
             "min": 42.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2226,7 +2226,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 15.0
           },
           {
@@ -2266,7 +2266,7 @@
         "ranges": [
           {
             "min": 42.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2274,7 +2274,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 15.0
           },
           {
@@ -2313,12 +2313,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 2.0
           },
           {
             "min": 3.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2352,12 +2352,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 2.0
           },
           {
             "min": 3.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2391,12 +2391,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.0
           },
           {
             "min": 1.8,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2430,12 +2430,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.0
           },
           {
             "min": 1.8,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2470,7 +2470,7 @@
         "ranges": [
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2478,7 +2478,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.2
           },
           {
@@ -2518,7 +2518,7 @@
         "ranges": [
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2526,7 +2526,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.2
           },
           {
@@ -2566,7 +2566,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2574,7 +2574,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 85.0
           },
           {
@@ -2614,7 +2614,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2622,7 +2622,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 85.0
           },
           {
@@ -2662,7 +2662,7 @@
         "ranges": [
           {
             "min": 50.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2670,7 +2670,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 5.0
           },
           {
@@ -2710,7 +2710,7 @@
         "ranges": [
           {
             "min": 50.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2718,7 +2718,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 5.0
           },
           {
@@ -2758,7 +2758,7 @@
         "ranges": [
           {
             "min": 700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2766,7 +2766,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.0
           },
           {
@@ -2806,7 +2806,7 @@
         "ranges": [
           {
             "min": 700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2814,7 +2814,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.0
           },
           {
@@ -2854,7 +2854,7 @@
         "ranges": [
           {
             "min": 40.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2862,7 +2862,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 6.1
           },
           {
@@ -2902,7 +2902,7 @@
         "ranges": [
           {
             "min": 40.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2910,7 +2910,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 6.1
           },
           {
@@ -2950,7 +2950,7 @@
         "ranges": [
           {
             "min": 1000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -2958,7 +2958,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 320.0
           },
           {
@@ -2998,7 +2998,7 @@
         "ranges": [
           {
             "min": 1000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3006,7 +3006,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 320.0
           },
           {
@@ -3045,12 +3045,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1200.0
           },
           {
             "min": 2040.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3088,12 +3088,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1200.0
           },
           {
             "min": 2040.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3131,12 +3131,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 40.0
           },
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3174,12 +3174,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 40.0
           },
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3217,12 +3217,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 80.0
           },
           {
             "min": 230.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3260,12 +3260,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 80.0
           },
           {
             "min": 230.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3303,12 +3303,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 80.0
           },
           {
             "min": 230.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3346,12 +3346,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 10.0
           },
           {
             "min": 45.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3389,12 +3389,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 10.0
           },
           {
             "min": 45.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3432,12 +3432,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 10.0
           },
           {
             "min": 45.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3475,12 +3475,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 25.0
           },
           {
             "min": 75.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3518,12 +3518,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 25.0
           },
           {
             "min": 75.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3561,12 +3561,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 25.0
           },
           {
             "min": 75.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3604,12 +3604,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 350.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3647,12 +3647,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 350.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3690,12 +3690,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 350.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3733,12 +3733,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 550.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3776,12 +3776,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 550.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3819,12 +3819,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 550.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3862,12 +3862,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3905,12 +3905,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3948,12 +3948,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -3991,12 +3991,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 400.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4034,12 +4034,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 400.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4077,12 +4077,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 400.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4120,12 +4120,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 20.0
           },
           {
             "min": 97.5,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4163,12 +4163,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 20.0
           },
           {
             "min": 97.5,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4206,12 +4206,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 20.0
           },
           {
             "min": 97.5,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4249,12 +4249,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 0.1
           },
           {
             "min": 0.3,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4288,12 +4288,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 300.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4331,12 +4331,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 12.0
           },
           {
             "min": 54.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4374,12 +4374,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 90.0
           },
           {
             "min": 135.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4417,12 +4417,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 25.0
           },
           {
             "min": 75.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4461,7 +4461,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4469,7 +4469,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 810.0
           },
           {
@@ -4508,12 +4508,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 250.0
           },
           {
             "min": 400.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4551,12 +4551,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1800.0
           },
           {
             "min": 2700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4594,12 +4594,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 250.0
           },
           {
             "min": 625.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4637,12 +4637,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4680,12 +4680,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4723,12 +4723,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 222.4
           },
           {
             "min": 333.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4767,7 +4767,7 @@
         "ranges": [
           {
             "min": 42.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4775,7 +4775,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 22.0
           },
           {
@@ -4814,12 +4814,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 2.4
           },
           {
             "min": 4.35,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4853,12 +4853,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.2
           },
           {
             "min": 2.25,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4893,7 +4893,7 @@
         "ranges": [
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4901,7 +4901,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.9
           },
           {
@@ -4941,7 +4941,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4949,7 +4949,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 95.0
           },
           {
@@ -4989,7 +4989,7 @@
         "ranges": [
           {
             "min": 50.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -4997,7 +4997,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 5.0
           },
           {
@@ -5037,7 +5037,7 @@
         "ranges": [
           {
             "min": 700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5045,7 +5045,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.0
           },
           {
@@ -5085,7 +5085,7 @@
         "ranges": [
           {
             "min": 40.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5093,7 +5093,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.8
           },
           {
@@ -5133,7 +5133,7 @@
         "ranges": [
           {
             "min": 1000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5141,7 +5141,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 520.0
           },
           {
@@ -5180,12 +5180,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1360.0
           },
           {
             "min": 2280.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5223,12 +5223,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 37.5
           },
           {
             "min": 150.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5266,12 +5266,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 50.4
           },
           {
             "min": 75.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5309,12 +5309,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 0.1
           },
           {
             "min": 0.3,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5348,12 +5348,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 80.0
           },
           {
             "min": 230.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5391,12 +5391,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 10.0
           },
           {
             "min": 45.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5434,12 +5434,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 72.0
           },
           {
             "min": 108.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5477,12 +5477,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 25.0
           },
           {
             "min": 75.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5521,7 +5521,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5529,7 +5529,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 650.0
           },
           {
@@ -5568,12 +5568,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 350.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5611,12 +5611,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1440.0
           },
           {
             "min": 2160.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5654,12 +5654,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 550.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5697,12 +5697,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5740,12 +5740,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 400.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5783,12 +5783,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 198.4
           },
           {
             "min": 297.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5827,7 +5827,7 @@
         "ranges": [
           {
             "min": 42.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5835,7 +5835,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 15.0
           },
           {
@@ -5874,12 +5874,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 2.4
           },
           {
             "min": 4.35,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5913,12 +5913,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.0
           },
           {
             "min": 1.8,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5953,7 +5953,7 @@
         "ranges": [
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -5961,7 +5961,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.9
           },
           {
@@ -6001,7 +6001,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6009,7 +6009,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 85.0
           },
           {
@@ -6049,7 +6049,7 @@
         "ranges": [
           {
             "min": 50.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6057,7 +6057,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 5.0
           },
           {
@@ -6097,7 +6097,7 @@
         "ranges": [
           {
             "min": 700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6105,7 +6105,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.0
           },
           {
@@ -6145,7 +6145,7 @@
         "ranges": [
           {
             "min": 40.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6153,7 +6153,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.8
           },
           {
@@ -6193,7 +6193,7 @@
         "ranges": [
           {
             "min": 1000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6201,7 +6201,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 520.0
           },
           {
@@ -6240,12 +6240,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1200.0
           },
           {
             "min": 2040.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6283,12 +6283,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 20.0
           },
           {
             "min": 97.5,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6326,12 +6326,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 40.0
           },
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6369,12 +6369,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 0.1
           },
           {
             "min": 0.3,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6408,12 +6408,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 100.0
           },
           {
             "min": 250.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6451,12 +6451,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 12.0
           },
           {
             "min": 54.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6494,12 +6494,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 84.0
           },
           {
             "min": 126.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6537,12 +6537,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 25.0
           },
           {
             "min": 75.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6581,7 +6581,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6589,7 +6589,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 810.0
           },
           {
@@ -6628,12 +6628,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 225.0
           },
           {
             "min": 375.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6671,12 +6671,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1680.0
           },
           {
             "min": 2520.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6714,12 +6714,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 250.0
           },
           {
             "min": 625.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6757,12 +6757,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 200.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6800,12 +6800,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 150.0
           },
           {
             "min": 600.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6843,12 +6843,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 210.4
           },
           {
             "min": 315.6,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6887,7 +6887,7 @@
         "ranges": [
           {
             "min": 42.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6895,7 +6895,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 19.0
           },
           {
@@ -6934,12 +6934,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 2.4
           },
           {
             "min": 4.35,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -6973,12 +6973,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.1
           },
           {
             "min": 2.1,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7013,7 +7013,7 @@
         "ranges": [
           {
             "min": 60.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7021,7 +7021,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1.9
           },
           {
@@ -7061,7 +7061,7 @@
         "ranges": [
           {
             "min": 2000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7069,7 +7069,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 95.0
           },
           {
@@ -7109,7 +7109,7 @@
         "ranges": [
           {
             "min": 50.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7117,7 +7117,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 5.0
           },
           {
@@ -7157,7 +7157,7 @@
         "ranges": [
           {
             "min": 700.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7165,7 +7165,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.0
           },
           {
@@ -7205,7 +7205,7 @@
         "ranges": [
           {
             "min": 40.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7213,7 +7213,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 7.8
           },
           {
@@ -7253,7 +7253,7 @@
         "ranges": [
           {
             "min": 1000.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7261,7 +7261,7 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 520.0
           },
           {
@@ -7300,12 +7300,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 1360.0
           },
           {
             "min": 2280.0,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7343,12 +7343,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 25.0
           },
           {
             "min": 112.5,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
@@ -7386,12 +7386,12 @@
         "score": 1,
         "ranges": [
           {
-            "min": -Infinity,
+            "min": -999999,
             "max": 47.2
           },
           {
             "min": 70.8,
-            "max": Infinity
+            "max": 999999
           }
         ]
       },
