@@ -33,6 +33,10 @@ app.include_router(users.router, prefix="/api/v1/users", tags=["用户"])
 from app.routers import auth
 app.include_router(auth.router, prefix="/api/v1/auth", tags=["认证"])
 
+# 导入营养路由
+from app.routers import nutrition
+app.include_router(nutrition.router, prefix="/api/v1/nutrition", tags=["营养"])
+
 # 初始化数据库表
 @app.on_event("startup")
 async def startup_event():
