@@ -1,6 +1,6 @@
 from pydantic import BaseModel, EmailStr, Field
-from typing import Optional, List, Dict, Any
-from datetime import datetime
+from typing import Optional, List, Dict, Any, Literal
+from datetime import datetime, date
 
 class GeneParams(BaseModel):
     nutrient_list: List[int] = []
@@ -12,6 +12,9 @@ class UserPreferenceBase(BaseModel):
     allergies: Optional[List[str]] = []
     cooking_level: Optional[str] = 'beginner'
     preferred_cuisines: Optional[List[str]] = []
+    # Unified activity level
+    activity_level: Optional[Literal['light', 'moderate', 'high']] = None
+    # Deprecated: kept for backward compatibility with old clients
     exercise_level: Optional[int] = Field(1, ge=0, le=3)
     eating_habit: Optional[int] = Field(0, ge=0, le=7)
     staple_food_preference: Optional[int] = Field(0, ge=0, le=2)
@@ -20,6 +23,14 @@ class UserPreferenceBase(BaseModel):
     preferred_season: Optional[int] = Field(None, ge=1, le=4)
     gene_params: Optional[GeneParams] = None
     notification_settings: Optional[Dict[str, Any]] = {}
+    # Health status & goals
+    life_stage: Optional[Literal[
+        'pre_conception', 'early_pregnancy', 'mid_pregnancy', 'late_pregnancy',
+        'postpartum_non_lactating', 'lactating_0_6_months', 'lactating_6_plus_months',
+        'adult_male', 'adult_female'
+    ]] = None
+    goals: Optional[List[Literal['weight_management', 'nutrition_optimization', 'condition_management']]] = []
+    medical_conditions: Optional[List[str]] = []
 
 class UserBase(BaseModel):
     username: str = Field(..., min_length=3, max_length=50)
@@ -27,6 +38,8 @@ class UserBase(BaseModel):
     phone: Optional[str] = None
     height: Optional[float] = Field(None, gt=0)
     weight: Optional[float] = Field(None, gt=0)
+    gender: Optional[Literal['male', 'female', 'other', 'unspecified']] = None
+    date_of_birth: Optional[date] = None
     user_type: Optional[int] = None
     is_paid: Optional[bool] = False
     region: str
@@ -50,6 +63,8 @@ class UserUpdate(BaseModel):
     phone: Optional[str] = None
     height: Optional[float] = Field(None, gt=0)
     weight: Optional[float] = Field(None, gt=0)
+    gender: Optional[Literal['male', 'female', 'other', 'unspecified']] = None
+    date_of_birth: Optional[date] = None
     user_type: Optional[int] = None
     is_paid: Optional[bool] = None
     avatar_url: Optional[str] = None

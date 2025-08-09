@@ -1,6 +1,6 @@
 from sqlalchemy import (
     Column, String, Boolean, ForeignKey,
-    DECIMAL, Integer, DateTime, JSON
+    DECIMAL, Integer, DateTime, JSON, Date
 )
 from sqlalchemy.orm import relationship, declarative_base
 from sqlalchemy.sql import func
@@ -20,6 +20,9 @@ class User(Base):
     is_active = Column(Boolean, default=True)
     is_verified = Column(Boolean, default=False)
     open_id = Column(String(255), unique=True)
+    # Personal information
+    gender = Column(String(10))  # 'male' | 'female' | 'other' | 'unspecified'
+    date_of_birth = Column(Date)
     height = Column(DECIMAL(5, 2))
     weight = Column(DECIMAL(5, 2))
     user_type = Column(Integer)
@@ -41,6 +44,9 @@ class UserPreference(Base):
     allergies = Column(JSON, default=lambda: [])
     cooking_level = Column(String(20), default='beginner')
     preferred_cuisines = Column(JSON, default=lambda: [])
+    # New unified activity level: 'light' | 'moderate' | 'high'
+    activity_level = Column(String(10))
+    # Deprecated, kept for backward compatibility
     exercise_level = Column(Integer, default=1)
     eating_habit = Column(Integer, default=0)
     staple_food_preference = Column(Integer, default=0)
@@ -49,6 +55,10 @@ class UserPreference(Base):
     preferred_season = Column(Integer)
     gene_params = Column(JSON)
     notification_settings = Column(JSON, default=lambda: {})
+    # Health status & goals
+    life_stage = Column(String(40))  # e.g., 'pre_conception', 'early_pregnancy', ... 'adult_male', 'adult_female'
+    goals = Column(JSON, default=lambda: [])  # e.g., ['weight_management', 'nutrition_optimization', 'condition_management']
+    medical_conditions = Column(JSON, default=lambda: [])
     created_at = Column(DateTime, server_default=func.current_timestamp())
     updated_at = Column(DateTime, server_default=func.current_timestamp(), onupdate=func.current_timestamp())
     

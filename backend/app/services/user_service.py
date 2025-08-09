@@ -1,4 +1,5 @@
 from sqlalchemy.orm import Session
+from datetime import date
 from passlib.context import CryptContext
 
 from app.models.user import User, UserPreference
@@ -30,6 +31,8 @@ def create_user(db: Session, user: UserCreate):
         password_hash=hashed_password,
         height=user.height,
         weight=user.weight,
+        gender=user.gender,
+        date_of_birth=user.date_of_birth,
         user_type=user.user_type,
         is_paid=user.is_paid,
         region=user.region,
@@ -63,6 +66,43 @@ def update_user(db: Session, user: User, user_update: UserUpdate):
     db.commit()
     db.refresh(user)
     return user
+
+
+def compute_bmi(height_m: float | None, weight_kg: float | None) -> float | None:
+    if not height_m or not weight_kg or height_m <= 0:
+        return None
+    return round(float(weight_kg) / (float(height_m) ** 2), 2)
+
+
+def compute_age(dob: date | None) -> int | None:
+    if not dob:
+        return None
+    today = date.today()
+    years = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
+    return years
+
+
+def build_user_health_profile(user: User) -> dict:
+    """Aggregate user's health-related profile for clients.
+    Includes personal info, health status, activity level, allergies, dietary restrictions, goals, and computed BMI/age.
+    """
+    preferences = user.preferences
+    return {
+        "id": user.id,
+        "username": user.username,
+        "gender": user.gender,
+        "date_of_birth": user.date_of_birth.isoformat() if user.date_of_birth else None,
+        "age": compute_age(user.date_of_birth),
+        "height_m": float(user.height) if user.height is not None else None,
+        "weight_kg": float(user.weight) if user.weight is not None else None,
+        "bmi": compute_bmi(float(user.height) if user.height else None, float(user.weight) if user.weight else None),
+        "activity_level": preferences.activity_level if preferences else None,
+        "life_stage": preferences.life_stage if preferences else None,
+        "allergies": preferences.allergies if preferences else [],
+        "dietary_restrictions": preferences.dietary_restrictions if preferences else [],
+        "goals": preferences.goals if preferences else [],
+        "medical_conditions": preferences.medical_conditions if preferences else [],
+    }
 
 def authenticate_user(db: Session, username: str, password: str):
     user = get_user_by_username(db, username)
