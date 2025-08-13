@@ -1,0 +1,7422 @@
+[
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "DHA",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 0.1
+          },
+          {
+            "min": 0.3,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 0.1,
+            "max": 0.18
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 0.18,
+            "max": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "畜禽肉鱼蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 300.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 200.0
+          },
+          {
+            "min": 251.0,
+            "max": 300.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 251.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "大豆类及坚果",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 14.0
+          },
+          {
+            "min": 63.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 14.0,
+            "max": 28.0
+          },
+          {
+            "min": 43.0,
+            "max": 63.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 28.0,
+            "max": 43.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "蛋白质",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 92.0
+          },
+          {
+            "min": 138.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 92.0,
+            "max": 103.5
+          },
+          {
+            "min": 127.5,
+            "max": 138.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 103.5,
+            "max": 127.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 25.0
+          },
+          {
+            "min": 75.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 25.0,
+            "max": 40.0
+          },
+          {
+            "min": 61.0,
+            "max": 75.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 61.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "钙",
+    "indicator_unit": "mg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 810.0
+          },
+          {
+            "min": 1500.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 810.0,
+            "max": 900.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 900.0,
+            "max": 1500.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "谷薯杂豆类",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 250.0
+          },
+          {
+            "min": 400.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 300.0
+          },
+          {
+            "min": 351.0,
+            "max": 400.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 351.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "能量",
+    "indicator_unit": "kcal/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1840.0
+          },
+          {
+            "min": 2760.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1840.0,
+            "max": 2070.0
+          },
+          {
+            "min": 2531.0,
+            "max": 2760.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2070.0,
+            "max": 2531.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "乳类及乳制品",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 250.0
+          },
+          {
+            "min": 625.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 625.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蔬菜",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 300.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 400.0
+          },
+          {
+            "min": 501.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 400.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "水果",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 200.0
+          },
+          {
+            "min": 401.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 401.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "碳水化合物",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 218.4
+          },
+          {
+            "min": 327.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 218.4,
+            "max": 245.7
+          },
+          {
+            "min": 301.3,
+            "max": 327.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 245.7,
+            "max": 301.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "铁",
+    "indicator_unit": "mg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 42.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 18.0
+          },
+          {
+            "min": 36.0,
+            "max": 42.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 18.0,
+            "max": 21.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 21.6,
+            "max": 36.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B12",
+    "indicator_unit": "µg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 2.6
+          },
+          {
+            "min": 4.8,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 2.6,
+            "max": 2.88
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2.88,
+            "max": 4.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B2",
+    "indicator_unit": "mg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.2
+          },
+          {
+            "min": 2.25,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.2,
+            "max": 1.35
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.35,
+            "max": 2.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B6",
+    "indicator_unit": "mg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.4
+          },
+          {
+            "min": 2.55,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.4,
+            "max": 1.53
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.53,
+            "max": 2.55
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素C",
+    "indicator_unit": "mg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 125.0
+          },
+          {
+            "min": 225.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 125.0,
+            "max": 135.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 135.0,
+            "max": 225.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素D",
+    "indicator_unit": "µg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 5.0
+          },
+          {
+            "min": 15.0,
+            "max": 50.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 5.0,
+            "max": 9.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 9.0,
+            "max": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素E",
+    "indicator_unit": "mg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 8.5
+          },
+          {
+            "min": 25.5,
+            "max": 700.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 8.5,
+            "max": 15.3
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 15.3,
+            "max": 25.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "锌",
+    "indicator_unit": "mg/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 9.9
+          },
+          {
+            "min": 18.0,
+            "max": 40.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 9.9,
+            "max": 10.8
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 10.8,
+            "max": 18.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "叶酸",
+    "indicator_unit": "µgDFE/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 1000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 450.0
+          },
+          {
+            "min": 825.0,
+            "max": 1000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 450.0,
+            "max": 495.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 495.0,
+            "max": 825.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "饮水",
+    "indicator_unit": "ml/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1680.0
+          },
+          {
+            "min": 2760.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1680.0,
+            "max": 2100.0
+          },
+          {
+            "min": 2301.0,
+            "max": 2760.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2100.0,
+            "max": 2301.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "鱼类",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 37.5
+          },
+          {
+            "min": 150.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 37.5,
+            "max": 75.0
+          },
+          {
+            "min": 101.0,
+            "max": 150.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 75.0,
+            "max": 101.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "脂肪",
+    "indicator_unit": "g/d",
+    "population_stage": "lactating",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 51.2
+          },
+          {
+            "min": 76.8,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 51.2,
+            "max": 57.6
+          },
+          {
+            "min": 71.4,
+            "max": 76.8
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 57.6,
+            "max": 71.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "DHA",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 0.1
+          },
+          {
+            "min": 0.3,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 0.1,
+            "max": 0.18
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 0.18,
+            "max": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "蛋白质",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 104.0
+          },
+          {
+            "min": 156.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 104.0,
+            "max": 117.0
+          },
+          {
+            "min": 144.0,
+            "max": 156.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 117.0,
+            "max": 144.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "钙",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 650.0
+          },
+          {
+            "min": 1200.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 650.0,
+            "max": 720.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 720.0,
+            "max": 1200.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "能量",
+    "indicator_unit": "kcal/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1800.0
+          },
+          {
+            "min": 2700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1800.0,
+            "max": 2025.0
+          },
+          {
+            "min": 2476.0,
+            "max": 2700.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2025.0,
+            "max": 2476.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "碳水化合物",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 247.5
+          },
+          {
+            "min": 371.25,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 247.5,
+            "max": 278.4375
+          },
+          {
+            "min": 341.3125,
+            "max": 371.25
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 278.4375,
+            "max": 341.3125
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "铁",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 42.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 9.0
+          },
+          {
+            "min": 18.0,
+            "max": 42.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 9.0,
+            "max": 10.8
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 10.8,
+            "max": 18.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B12",
+    "indicator_unit": "µg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 2.0
+          },
+          {
+            "min": 3.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 2.0,
+            "max": 2.16
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2.16,
+            "max": 3.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B2",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.2
+          },
+          {
+            "min": 2.1,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.2,
+            "max": 1.26
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.26,
+            "max": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B6",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.2
+          },
+          {
+            "min": 2.1,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.2,
+            "max": 1.26
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.26,
+            "max": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素C",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 85.0
+          },
+          {
+            "min": 150.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 85.0,
+            "max": 90.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 90.0,
+            "max": 150.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素D",
+    "indicator_unit": "µg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 5.0
+          },
+          {
+            "min": 15.0,
+            "max": 50.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 5.0,
+            "max": 9.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 9.0,
+            "max": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素E",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.0
+          },
+          {
+            "min": 21.0,
+            "max": 700.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.0,
+            "max": 12.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 12.6,
+            "max": 21.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "锌",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 10.4
+          },
+          {
+            "min": 18.75,
+            "max": 40.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 10.4,
+            "max": 11.25
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 11.25,
+            "max": 18.75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "叶酸",
+    "indicator_unit": "µgDFE/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 1000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 320.0
+          },
+          {
+            "min": 600.0,
+            "max": 1000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 320.0,
+            "max": 360.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 360.0,
+            "max": 600.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "饮水",
+    "indicator_unit": "ml/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1088.0
+          },
+          {
+            "min": 2448.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1088.0,
+            "max": 1360.0
+          },
+          {
+            "min": 2041.0,
+            "max": 2448.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1360.0,
+            "max": 2041.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "脂肪",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 50.0
+          },
+          {
+            "min": 75.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 56.25
+          },
+          {
+            "min": 69.75,
+            "max": 75.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 56.25,
+            "max": 69.75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "DHA",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 0.1
+          },
+          {
+            "min": 0.3,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 0.1,
+            "max": 0.18
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 0.18,
+            "max": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "DHA",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 0.1
+          },
+          {
+            "min": 0.3,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 0.1,
+            "max": 0.18
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 0.18,
+            "max": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "蛋白质",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 72.0
+          },
+          {
+            "min": 108.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 72.0,
+            "max": 81.0
+          },
+          {
+            "min": 100.0,
+            "max": 108.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 81.0,
+            "max": 100.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "蛋白质",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 72.0
+          },
+          {
+            "min": 108.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 72.0,
+            "max": 81.0
+          },
+          {
+            "min": 100.0,
+            "max": 108.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 81.0,
+            "max": 100.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "钙",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 650.0
+          },
+          {
+            "min": 1200.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 650.0,
+            "max": 720.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 720.0,
+            "max": 1200.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "钙",
+    "indicator_unit": "mg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 650.0
+          },
+          {
+            "min": 1200.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 650.0,
+            "max": 720.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 720.0,
+            "max": 1200.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "能量",
+    "indicator_unit": "kcal/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1440.0
+          },
+          {
+            "min": 2160.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1440.0,
+            "max": 1620.0
+          },
+          {
+            "min": 1981.0,
+            "max": 2160.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1620.0,
+            "max": 1981.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "能量",
+    "indicator_unit": "kcal/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1440.0
+          },
+          {
+            "min": 2160.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1440.0,
+            "max": 1620.0
+          },
+          {
+            "min": 1981.0,
+            "max": 2160.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1620.0,
+            "max": 1981.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "碳水化合物",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 198.4
+          },
+          {
+            "min": 297.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 198.4,
+            "max": 223.2
+          },
+          {
+            "min": 273.8,
+            "max": 297.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 223.2,
+            "max": 273.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "碳水化合物",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 198.4
+          },
+          {
+            "min": 297.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 198.4,
+            "max": 223.2
+          },
+          {
+            "min": 273.8,
+            "max": 297.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 223.2,
+            "max": 273.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "铁",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 42.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 15.0
+          },
+          {
+            "min": 30.0,
+            "max": 42.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 15.0,
+            "max": 18.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 18.0,
+            "max": 30.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "铁",
+    "indicator_unit": "mg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 42.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 15.0
+          },
+          {
+            "min": 30.0,
+            "max": 42.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 15.0,
+            "max": 18.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 18.0,
+            "max": 30.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B12",
+    "indicator_unit": "µg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 2.0
+          },
+          {
+            "min": 3.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 2.0,
+            "max": 2.16
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2.16,
+            "max": 3.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B12",
+    "indicator_unit": "µg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 2.0
+          },
+          {
+            "min": 3.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 2.0,
+            "max": 2.16
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2.16,
+            "max": 3.6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B2",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.0
+          },
+          {
+            "min": 1.8,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.0,
+            "max": 1.08
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.08,
+            "max": 1.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B2",
+    "indicator_unit": "mg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.0
+          },
+          {
+            "min": 1.8,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.0,
+            "max": 1.08
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.08,
+            "max": 1.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B6",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.2
+          },
+          {
+            "min": 2.1,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.2,
+            "max": 1.26
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.26,
+            "max": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B6",
+    "indicator_unit": "mg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.2
+          },
+          {
+            "min": 2.1,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.2,
+            "max": 1.26
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.26,
+            "max": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素C",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 85.0
+          },
+          {
+            "min": 150.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 85.0,
+            "max": 90.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 90.0,
+            "max": 150.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素C",
+    "indicator_unit": "mg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 85.0
+          },
+          {
+            "min": 150.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 85.0,
+            "max": 90.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 90.0,
+            "max": 150.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素D",
+    "indicator_unit": "µg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 5.0
+          },
+          {
+            "min": 15.0,
+            "max": 50.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 5.0,
+            "max": 9.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 9.0,
+            "max": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素D",
+    "indicator_unit": "µg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 5.0
+          },
+          {
+            "min": 15.0,
+            "max": 50.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 5.0,
+            "max": 9.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 9.0,
+            "max": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素E",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.0
+          },
+          {
+            "min": 21.0,
+            "max": 700.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.0,
+            "max": 12.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 12.6,
+            "max": 21.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素E",
+    "indicator_unit": "mg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.0
+          },
+          {
+            "min": 21.0,
+            "max": 700.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.0,
+            "max": 12.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 12.6,
+            "max": 21.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "锌",
+    "indicator_unit": "mg/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 6.1
+          },
+          {
+            "min": 11.25,
+            "max": 40.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 6.1,
+            "max": 6.75
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 6.75,
+            "max": 11.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "锌",
+    "indicator_unit": "mg/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 6.1
+          },
+          {
+            "min": 11.25,
+            "max": 40.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 6.1,
+            "max": 6.75
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 6.75,
+            "max": 11.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "叶酸",
+    "indicator_unit": "µgDFE/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 1000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 320.0
+          },
+          {
+            "min": 600.0,
+            "max": 1000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 320.0,
+            "max": 360.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 360.0,
+            "max": 600.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "叶酸",
+    "indicator_unit": "µgDFE/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 1000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 320.0
+          },
+          {
+            "min": 600.0,
+            "max": 1000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 320.0,
+            "max": 360.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 360.0,
+            "max": 600.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "饮水",
+    "indicator_unit": "ml/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1200.0
+          },
+          {
+            "min": 2040.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1200.0,
+            "max": 1500.0
+          },
+          {
+            "min": 1701.0,
+            "max": 2040.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1500.0,
+            "max": 1701.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "饮水",
+    "indicator_unit": "ml/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1200.0
+          },
+          {
+            "min": 2040.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1200.0,
+            "max": 1500.0
+          },
+          {
+            "min": 1701.0,
+            "max": 2040.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1500.0,
+            "max": 1701.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "脂肪",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 40.0
+          },
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 45.0
+          },
+          {
+            "min": 56.0,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 45.0,
+            "max": 56.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "脂肪",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 40.0
+          },
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 45.0
+          },
+          {
+            "min": 56.0,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 45.0,
+            "max": 56.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "畜禽肉鱼蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 80.0
+          },
+          {
+            "min": 230.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 80.0,
+            "max": 130.0
+          },
+          {
+            "min": 181.0,
+            "max": 230.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 130.0,
+            "max": 181.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "畜禽肉鱼蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 80.0
+          },
+          {
+            "min": 230.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 80.0,
+            "max": 130.0
+          },
+          {
+            "min": 181.0,
+            "max": 230.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 130.0,
+            "max": 181.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "畜禽肉鱼蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 80.0
+          },
+          {
+            "min": 230.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 80.0,
+            "max": 130.0
+          },
+          {
+            "min": 181.0,
+            "max": 230.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 130.0,
+            "max": 181.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "大豆类及坚果",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 10.0
+          },
+          {
+            "min": 45.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 10.0,
+            "max": 20.0
+          },
+          {
+            "min": 31.0,
+            "max": 45.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 20.0,
+            "max": 31.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "大豆类及坚果",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 10.0
+          },
+          {
+            "min": 45.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 10.0,
+            "max": 20.0
+          },
+          {
+            "min": 31.0,
+            "max": 45.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 20.0,
+            "max": 31.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "大豆类及坚果",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 10.0
+          },
+          {
+            "min": 45.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 10.0,
+            "max": 20.0
+          },
+          {
+            "min": 31.0,
+            "max": 45.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 20.0,
+            "max": 31.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 25.0
+          },
+          {
+            "min": 75.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 25.0,
+            "max": 40.0
+          },
+          {
+            "min": 61.0,
+            "max": 75.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 61.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 25.0
+          },
+          {
+            "min": 75.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 25.0,
+            "max": 40.0
+          },
+          {
+            "min": 61.0,
+            "max": 75.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 61.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 25.0
+          },
+          {
+            "min": 75.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 25.0,
+            "max": 40.0
+          },
+          {
+            "min": 61.0,
+            "max": 75.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 61.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "谷薯杂豆类",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 350.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 250.0
+          },
+          {
+            "min": 301.0,
+            "max": 350.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 301.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "谷薯杂豆类",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 350.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 250.0
+          },
+          {
+            "min": 301.0,
+            "max": 350.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 301.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "谷薯杂豆类",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 350.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 250.0
+          },
+          {
+            "min": 301.0,
+            "max": 350.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 301.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "乳类及乳制品",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 550.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 300.0
+          },
+          {
+            "min": 426.0,
+            "max": 550.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 426.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "乳类及乳制品",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 550.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 300.0
+          },
+          {
+            "min": 426.0,
+            "max": 550.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 426.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "乳类及乳制品",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 550.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 300.0
+          },
+          {
+            "min": 426.0,
+            "max": 550.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 426.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蔬菜",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蔬菜",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蔬菜",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "水果",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 400.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 250.0
+          },
+          {
+            "min": 351.0,
+            "max": 400.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 351.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "水果",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 400.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 250.0
+          },
+          {
+            "min": 351.0,
+            "max": 400.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 351.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "水果",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 400.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 250.0
+          },
+          {
+            "min": 351.0,
+            "max": 400.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 351.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "鱼类",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_female",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 20.0
+          },
+          {
+            "min": 97.5,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 20.0,
+            "max": 40.0
+          },
+          {
+            "min": 66.0,
+            "max": 97.5
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 66.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "鱼类",
+    "indicator_unit": "g/d",
+    "population_stage": "adult_male",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 20.0
+          },
+          {
+            "min": 97.5,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 20.0,
+            "max": 40.0
+          },
+          {
+            "min": 66.0,
+            "max": 97.5
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 66.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "鱼类",
+    "indicator_unit": "g/d",
+    "population_stage": "pre_conception",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 20.0
+          },
+          {
+            "min": 97.5,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 20.0,
+            "max": 40.0
+          },
+          {
+            "min": 66.0,
+            "max": 97.5
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 66.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "DHA",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 0.1
+          },
+          {
+            "min": 0.3,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 0.1,
+            "max": 0.18
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 0.18,
+            "max": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "畜禽肉鱼蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 300.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 200.0
+          },
+          {
+            "min": 251.0,
+            "max": 300.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 251.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "大豆类及坚果",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 12.0
+          },
+          {
+            "min": 54.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 12.0,
+            "max": 24.0
+          },
+          {
+            "min": 37.0,
+            "max": 54.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 24.0,
+            "max": 37.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "蛋白质",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 90.0
+          },
+          {
+            "min": 135.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 90.0,
+            "max": 101.25
+          },
+          {
+            "min": 124.75,
+            "max": 135.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 101.25,
+            "max": 124.75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 25.0
+          },
+          {
+            "min": 75.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 25.0,
+            "max": 40.0
+          },
+          {
+            "min": 61.0,
+            "max": 75.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 61.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "钙",
+    "indicator_unit": "mg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 810.0
+          },
+          {
+            "min": 1500.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 810.0,
+            "max": 900.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 900.0,
+            "max": 1500.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "谷薯杂豆类",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 250.0
+          },
+          {
+            "min": 400.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 300.0
+          },
+          {
+            "min": 351.0,
+            "max": 400.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 351.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "能量",
+    "indicator_unit": "kcal/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1800.0
+          },
+          {
+            "min": 2700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1800.0,
+            "max": 2025.0
+          },
+          {
+            "min": 2476.0,
+            "max": 2700.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2025.0,
+            "max": 2476.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "乳类及乳制品",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 250.0
+          },
+          {
+            "min": 625.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 625.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蔬菜",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "水果",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 200.0
+          },
+          {
+            "min": 401.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 401.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "碳水化合物",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 222.4
+          },
+          {
+            "min": 333.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 222.4,
+            "max": 250.2
+          },
+          {
+            "min": 306.8,
+            "max": 333.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.2,
+            "max": 306.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "铁",
+    "indicator_unit": "mg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 42.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 22.0
+          },
+          {
+            "min": 43.5,
+            "max": 42.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 22.0,
+            "max": 26.1
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 26.1,
+            "max": 43.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B12",
+    "indicator_unit": "µg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 2.4
+          },
+          {
+            "min": 4.35,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 2.4,
+            "max": 2.61
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2.61,
+            "max": 4.35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B2",
+    "indicator_unit": "mg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.2
+          },
+          {
+            "min": 2.25,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.2,
+            "max": 1.35
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.35,
+            "max": 2.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B6",
+    "indicator_unit": "mg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.9
+          },
+          {
+            "min": 3.3,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.9,
+            "max": 1.98
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.98,
+            "max": 3.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素C",
+    "indicator_unit": "mg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 95.0
+          },
+          {
+            "min": 172.5,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 95.0,
+            "max": 103.5
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 103.5,
+            "max": 172.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素D",
+    "indicator_unit": "µg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 5.0
+          },
+          {
+            "min": 15.0,
+            "max": 50.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 5.0,
+            "max": 9.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 9.0,
+            "max": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素E",
+    "indicator_unit": "mg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.0
+          },
+          {
+            "min": 21.0,
+            "max": 700.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.0,
+            "max": 12.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 12.6,
+            "max": 21.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "锌",
+    "indicator_unit": "mg/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.8
+          },
+          {
+            "min": 14.25,
+            "max": 40.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.8,
+            "max": 8.55
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 8.55,
+            "max": 14.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "叶酸",
+    "indicator_unit": "µgDFE/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 1000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 520.0
+          },
+          {
+            "min": 900.0,
+            "max": 1000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 520.0,
+            "max": 540.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 540.0,
+            "max": 900.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "饮水",
+    "indicator_unit": "ml/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1360.0
+          },
+          {
+            "min": 2280.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1360.0,
+            "max": 1700.0
+          },
+          {
+            "min": 1901.0,
+            "max": 2280.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1700.0,
+            "max": 1901.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "鱼类",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 37.5
+          },
+          {
+            "min": 150.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 37.5,
+            "max": 75.0
+          },
+          {
+            "min": 101.0,
+            "max": 150.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 75.0,
+            "max": 101.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "脂肪",
+    "indicator_unit": "g/d",
+    "population_stage": "late_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 50.4
+          },
+          {
+            "min": 75.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 50.4,
+            "max": 56.7
+          },
+          {
+            "min": 70.3,
+            "max": 75.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 56.7,
+            "max": 70.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "DHA",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 0.1
+          },
+          {
+            "min": 0.3,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 0.1,
+            "max": 0.18
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 0.18,
+            "max": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "畜禽肉鱼蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 80.0
+          },
+          {
+            "min": 230.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 80.0,
+            "max": 130.0
+          },
+          {
+            "min": 181.0,
+            "max": 230.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 130.0,
+            "max": 181.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "大豆类及坚果",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 10.0
+          },
+          {
+            "min": 45.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 10.0,
+            "max": 20.0
+          },
+          {
+            "min": 31.0,
+            "max": 45.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 20.0,
+            "max": 31.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "蛋白质",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 72.0
+          },
+          {
+            "min": 108.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 72.0,
+            "max": 81.0
+          },
+          {
+            "min": 100.0,
+            "max": 108.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 81.0,
+            "max": 100.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 25.0
+          },
+          {
+            "min": 75.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 25.0,
+            "max": 40.0
+          },
+          {
+            "min": 61.0,
+            "max": 75.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 61.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "钙",
+    "indicator_unit": "mg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 650.0
+          },
+          {
+            "min": 1200.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 650.0,
+            "max": 720.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 720.0,
+            "max": 1200.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "谷薯杂豆类",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 350.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 250.0
+          },
+          {
+            "min": 301.0,
+            "max": 350.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 301.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "能量",
+    "indicator_unit": "kcal/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1440.0
+          },
+          {
+            "min": 2160.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1440.0,
+            "max": 1620.0
+          },
+          {
+            "min": 1981.0,
+            "max": 2160.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1620.0,
+            "max": 1981.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "乳类及乳制品",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 550.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 300.0
+          },
+          {
+            "min": 426.0,
+            "max": 550.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 426.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蔬菜",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "水果",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 400.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 250.0
+          },
+          {
+            "min": 351.0,
+            "max": 400.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 351.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "碳水化合物",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 198.4
+          },
+          {
+            "min": 297.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 198.4,
+            "max": 223.2
+          },
+          {
+            "min": 273.8,
+            "max": 297.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 223.2,
+            "max": 273.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "铁",
+    "indicator_unit": "mg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 42.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 15.0
+          },
+          {
+            "min": 30.0,
+            "max": 42.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 15.0,
+            "max": 18.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 18.0,
+            "max": 30.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B12",
+    "indicator_unit": "µg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 2.4
+          },
+          {
+            "min": 4.35,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 2.4,
+            "max": 2.61
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2.61,
+            "max": 4.35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B2",
+    "indicator_unit": "mg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.0
+          },
+          {
+            "min": 1.8,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.0,
+            "max": 1.08
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.08,
+            "max": 1.8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B6",
+    "indicator_unit": "mg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.9
+          },
+          {
+            "min": 3.3,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.9,
+            "max": 1.98
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.98,
+            "max": 3.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素C",
+    "indicator_unit": "mg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 85.0
+          },
+          {
+            "min": 150.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 85.0,
+            "max": 90.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 90.0,
+            "max": 150.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素D",
+    "indicator_unit": "µg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 5.0
+          },
+          {
+            "min": 15.0,
+            "max": 50.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 5.0,
+            "max": 9.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 9.0,
+            "max": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素E",
+    "indicator_unit": "mg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.0
+          },
+          {
+            "min": 21.0,
+            "max": 700.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.0,
+            "max": 12.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 12.6,
+            "max": 21.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "锌",
+    "indicator_unit": "mg/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.8
+          },
+          {
+            "min": 14.25,
+            "max": 40.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.8,
+            "max": 8.55
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 8.55,
+            "max": 14.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "叶酸",
+    "indicator_unit": "µgDFE/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 1000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 520.0
+          },
+          {
+            "min": 900.0,
+            "max": 1000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 520.0,
+            "max": 540.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 540.0,
+            "max": 900.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "饮水",
+    "indicator_unit": "ml/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1200.0
+          },
+          {
+            "min": 2040.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1200.0,
+            "max": 1500.0
+          },
+          {
+            "min": 1701.0,
+            "max": 2040.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1500.0,
+            "max": 1701.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "鱼类",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 20.0
+          },
+          {
+            "min": 97.5,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 20.0,
+            "max": 40.0
+          },
+          {
+            "min": 66.0,
+            "max": 97.5
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 66.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "脂肪",
+    "indicator_unit": "g/d",
+    "population_stage": "early_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 40.0
+          },
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 45.0
+          },
+          {
+            "min": 56.0,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 45.0,
+            "max": 56.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "DHA",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 0.1
+          },
+          {
+            "min": 0.3,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 0.1,
+            "max": 0.18
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 0.18,
+            "max": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "畜禽肉鱼蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 100.0
+          },
+          {
+            "min": 250.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 100.0,
+            "max": 150.0
+          },
+          {
+            "min": 201.0,
+            "max": 250.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 201.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "大豆类及坚果",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 12.0
+          },
+          {
+            "min": 54.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 12.0,
+            "max": 24.0
+          },
+          {
+            "min": 37.0,
+            "max": 54.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 24.0,
+            "max": 37.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "蛋白质",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 84.0
+          },
+          {
+            "min": 126.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 84.0,
+            "max": 94.5
+          },
+          {
+            "min": 116.5,
+            "max": 126.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 94.5,
+            "max": 116.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蛋类",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 25.0
+          },
+          {
+            "min": 75.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 25.0,
+            "max": 40.0
+          },
+          {
+            "min": 61.0,
+            "max": 75.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 61.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "钙",
+    "indicator_unit": "mg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 810.0
+          },
+          {
+            "min": 1500.0,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 810.0,
+            "max": 900.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 900.0,
+            "max": 1500.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "谷薯杂豆类",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 225.0
+          },
+          {
+            "min": 375.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 225.0,
+            "max": 275.0
+          },
+          {
+            "min": 326.0,
+            "max": 375.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 275.0,
+            "max": 326.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "能量",
+    "indicator_unit": "kcal/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1680.0
+          },
+          {
+            "min": 2520.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1680.0,
+            "max": 1890.0
+          },
+          {
+            "min": 2311.0,
+            "max": 2520.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1890.0,
+            "max": 2311.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "乳类及乳制品",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 250.0
+          },
+          {
+            "min": 625.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 250.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 625.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "蔬菜",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 200.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 300.0
+          },
+          {
+            "min": 501.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 300.0,
+            "max": 501.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "水果",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 150.0
+          },
+          {
+            "min": 600.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 150.0,
+            "max": 200.0
+          },
+          {
+            "min": 401.0,
+            "max": 600.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 200.0,
+            "max": 401.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "碳水化合物",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 210.4
+          },
+          {
+            "min": 315.6,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 210.4,
+            "max": 236.7
+          },
+          {
+            "min": 290.3,
+            "max": 315.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 236.7,
+            "max": 290.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "铁",
+    "indicator_unit": "mg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 42.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 19.0
+          },
+          {
+            "min": 36.0,
+            "max": 42.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 19.0,
+            "max": 21.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 21.6,
+            "max": 36.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B12",
+    "indicator_unit": "µg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 2.4
+          },
+          {
+            "min": 4.35,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 2.4,
+            "max": 2.61
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 2.61,
+            "max": 4.35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B2",
+    "indicator_unit": "mg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.1
+          },
+          {
+            "min": 2.1,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.1,
+            "max": 1.26
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.26,
+            "max": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素B6",
+    "indicator_unit": "mg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 60.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1.9
+          },
+          {
+            "min": 3.3,
+            "max": 60.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1.9,
+            "max": 1.98
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1.98,
+            "max": 3.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素C",
+    "indicator_unit": "mg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 2000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 95.0
+          },
+          {
+            "min": 172.5,
+            "max": 2000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 95.0,
+            "max": 103.5
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 103.5,
+            "max": 172.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素D",
+    "indicator_unit": "µg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 5.0
+          },
+          {
+            "min": 15.0,
+            "max": 50.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 5.0,
+            "max": 9.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 9.0,
+            "max": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "维生素E",
+    "indicator_unit": "mg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 700.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.0
+          },
+          {
+            "min": 21.0,
+            "max": 700.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.0,
+            "max": 12.6
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 12.6,
+            "max": 21.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "锌",
+    "indicator_unit": "mg/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 40.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 7.8
+          },
+          {
+            "min": 14.25,
+            "max": 40.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 7.8,
+            "max": 8.55
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 8.55,
+            "max": 14.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "micronutrients",
+    "indicator_name": "叶酸",
+    "indicator_unit": "µgDFE/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 0,
+        "ranges": [
+          {
+            "min": 1000.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 520.0
+          },
+          {
+            "min": 900.0,
+            "max": 1000.0
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 520.0,
+            "max": 540.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 540.0,
+            "max": 900.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "饮水",
+    "indicator_unit": "ml/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 1360.0
+          },
+          {
+            "min": 2280.0,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 1360.0,
+            "max": 1700.0
+          },
+          {
+            "min": 1901.0,
+            "max": 2280.0
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 1700.0,
+            "max": 1901.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "food_group",
+    "indicator_name": "鱼类",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 25.0
+          },
+          {
+            "min": 112.5,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 25.0,
+            "max": 50.0
+          },
+          {
+            "min": 76.0,
+            "max": 112.5
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 50.0,
+            "max": 76.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_type": "energy_macronutrients",
+    "indicator_name": "脂肪",
+    "indicator_unit": "g/d",
+    "population_stage": "mid_pregnancy",
+    "score_rules": [
+      {
+        "score": 1,
+        "ranges": [
+          {
+            "min": -999999,
+            "max": 47.2
+          },
+          {
+            "min": 70.8,
+            "max": 999999
+          }
+        ]
+      },
+      {
+        "score": 2,
+        "ranges": [
+          {
+            "min": 47.2,
+            "max": 53.1
+          },
+          {
+            "min": 65.9,
+            "max": 70.8
+          }
+        ]
+      },
+      {
+        "score": 3,
+        "ranges": [
+          {
+            "min": 53.1,
+            "max": 65.9
+          }
+        ]
+      }
+    ]
+  }
+]
